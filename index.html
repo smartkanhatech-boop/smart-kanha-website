@@ -224,18 +224,29 @@
     <section id="tools" class="py-24 bg-white">
         <div class="container mx-auto px-6 text-center">
             <h2 class="text-4xl font-bold mb-16 text-gray-900">Try our <span class="text-blue-600">demo app</span></h2>
-            <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center p-8 bg-gray-50 rounded-3xl border border-gray-200 hover:border-blue-400 transition-all group">
+            
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center p-8 bg-gray-50 rounded-3xl border border-gray-200 hover:border-blue-400 transition-all group relative overflow-hidden">
+                
+                <div class="absolute top-0 right-0 bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-bl-xl shadow-sm z-10">
+                    <i class="fas fa-lock mr-1"></i> CLIENT ACCESS ONLY
+                </div>
+
                 <div class="w-20 h-20 bg-blue-100 rounded-2xl flex items-center justify-center mb-6 md:mb-0 md:mr-8 group-hover:scale-110 transition">
                     <i class="fas fa-calculator text-3xl text-blue-600"></i>
                 </div>
+                
                 <div class="flex-1 text-center md:text-left">
                     <h4 class="text-2xl font-bold text-gray-900">Billing Tool</h4>
                     <p class="text-gray-500 mt-2">A live demonstration of our automated invoicing system. Generate quotes instantly.</p>
                 </div>
-                <div class="mt-6 md:mt-0">
-                    <a href="https://marketingsamplebillingtool.streamlit.app/" target="_blank" class="inline-flex items-center justify-center bg-blue-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-blue-700 transition shadow-lg shadow-blue-200">
-                        Launch Tool <i class="fas fa-external-link-alt ml-2"></i>
+                
+                <div class="mt-6 md:mt-0 flex flex-col items-center">
+                    <a href="https://wa.me/918962627817?text=Hello%20Smart%20Kanha%2C%20I%20want%20access%20to%20the%20Billing%20Tool%20Demo." target="_blank" class="inline-flex items-center justify-center bg-green-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-green-700 transition shadow-lg shadow-green-200 transform hover:-translate-y-1">
+                        <i class="fab fa-whatsapp mr-2 text-xl"></i> Request Access
                     </a>
+                    <p class="text-[10px] text-gray-400 mt-3 font-bold uppercase tracking-widest">
+                        <i class="fas fa-shield-alt mr-1"></i> Verification Required
+                    </p>
                 </div>
             </div>
         </div>
